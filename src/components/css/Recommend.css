@@ -1,0 +1,56 @@
+blockquote {
+    color: white;
+    font-size: 30px;
+    line-height: 100%;
+    position: relative;
+    padding-top: 10px;
+    font-family: Georgia, serif;
+    width: 300px;
+    margin: 10% auto;
+}
+
+blockquote:before {
+    content: '\201C';
+    position: absolute;
+    top: -20px;
+    left: 0;
+    bottom: -30px;
+    font-family: Helvetica, sans-serif;
+    font-size: 50px;
+    font-style: normal;
+}
+
+blockquote:after {
+    content: '\201C';
+    position: absolute;
+    bottom: -45px;
+    font-family: Helvetica, sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    right: 0;
+}
+
+
+@media all and (max-width:768px) {
+    blockquote {
+        font-size: 30px;
+        width: 450px;
+    }
+}
+
+@media all and (max-width:480px) {
+    blockquote {
+        font-size: 25px;
+        width: 300px;
+    }
+
+    blockquote:before {
+        top: -10px;
+    }
+
+    blockquote:after {
+        bottom: -25px;
+    }
+}
+
+/* EDIT DESIGn */
