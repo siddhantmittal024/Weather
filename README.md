@@ -1,10 +1,14 @@
-# Weather
+# Weather App - React.Js
 
-MY FIRST PERSONAL PROJECT
+USED REACT.JS ALONG WITH BASIC API CALLS(Axios and Responses)
 
-USED REACT.JS ALONG WITH BASIC API CALLS
+React Hooks Lifecycle, also imported data from a JSON file for recommendation section.
 
-FULLY RESPONSIVE DESIGN
+API used: openweathermap.org
+
+React/React-Components with webpack
+
+Fully Responsive Design
 
 DO GIVE IT A LOOK:
 https://siddhantmittal024.github.io/Weather/
